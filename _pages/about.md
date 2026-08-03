@@ -71,7 +71,7 @@ redirect_from:
       <span class="paper-note award">Oral</span>
     </div>
     <h3><a href="https://www.ijcai.org/proceedings/2025/655">BMIP: Bi-directional Modality Interaction Prompt Learning for VLM</a></h3>
-    <p class="authors"><strong>Song-Lin Lv</strong>, coauthors.</p>
+    <p class="authors"><strong>Song-Lin Lv</strong>, Yu-Yang Chen, Zhi Zhou, Ming Yang, Lan-Zhe Guo.</p>
     <div class="paper-interests"><span class="interest-tag--vlm">视觉语言模型</span><span class="interest-tag--tuning">提示学习</span></div>
     <p>提出一种面向 CLIP 类视觉语言模型的参数高效提示学习框架，在视觉模态与语言模态分别学习提示参数，并通过双向模态交互机制实现提示间的信息传递，从而提升下游任务特征表示能力。</p>
     <p class="pub-links"><a href="https://www.ijcai.org/proceedings/2025/655">Paper</a></p>
@@ -83,7 +83,7 @@ redirect_from:
       <span class="paper-note award">Oral</span>
     </div>
     <h3><a href="https://arxiv.org/abs/2510.20477">Bi-CoG: Bi-Consistency-Guided Self-Training for Vision-Language Models</a></h3>
-    <p class="authors">共同一作。</p>
+    <p class="authors">Rui Zhu, <strong>Song-Lin Lv</strong>, Zi-Kang Wang, Lan-Zhe Guo. 共同一作。</p>
     <div class="paper-interests"><span class="interest-tag--vlm">视觉语言模型</span><span class="interest-tag--ssl">半监督学习</span></div>
     <p>结合多种 VLM 的原始泛化能力进行多视图无标注数据自训练，在开放环境设置与 VLM 评估设置中提升半监督学习表现。</p>
     <p class="pub-links"><a href="https://arxiv.org/abs/2510.20477">arXiv</a> / <a href="https://arxiv.org/pdf/2510.20477">PDF</a></p>
@@ -122,19 +122,20 @@ redirect_from:
       <span class="venue-badge">在投</span>
     </div>
     <h3>Perception-Inference Decoupling: A Dual-Stage Framework to Boost LVLM Reasoning</h3>
-    <p class="authors"><strong>Song-Lin Lv</strong>, coauthors.</p>
+    <p class="authors"><strong>Song-Lin Lv</strong>, Yu-Yang Chen, Zhi Zhou, Ming Yang, Lan-Zhe Guo.</p>
     <div class="paper-interests"><span class="interest-tag--vlm">MLLM</span><span class="interest-tag--reasoning">推理</span></div>
     <p>针对多模态大语言模型中的图像感知幻觉与推理幻觉，研究显式分离感知与推理过程的两阶段优化策略，以提升模型的多模态理解与推理能力。</p>
   </article>
+
 
   <article class="publication-item">
     <div class="publication-meta">
       <span class="venue-badge">在投</span>
     </div>
-    <h3>HyPRM: A Hybrid Process Reward Model for Pre-Execution Action Selection in Multimodal Agents</h3>
-    <p class="authors">共同一作，指导者。</p>
+    <h3>ActionPRM: Learning Action-Level Process Reward Models for Pre-Execution Action Selection in Multimodal Agents</h3>
+    <p class="authors">Yongqian Wen, <strong>Song-Lin Lv</strong>, Ye Luo, Lan-Zhe Guo.</p>
     <div class="paper-interests"><span class="interest-tag--agent">多模态 Agent</span><span class="interest-tag--rl">过程奖励模型</span></div>
-    <p>通过构建理想工具调用链条与冗余工具链条训练过程奖励模型，用于强化学习奖励设计与测试时工具选择，以减少结果导向奖励带来的工具调用冗余问题。</p>
+    <p>学习动作级过程奖励模型，在工具执行前评估候选动作，用于多模态 Agent 的动作选择与工具调用优化。</p>
   </article>
 
   <article class="publication-item">
@@ -142,7 +143,7 @@ redirect_from:
       <span class="venue-badge">在投</span>
     </div>
     <h3><a href="https://arxiv.org/abs/2505.13317">Unlabeled Data or Pre-trained Model: Rethinking Semi-Supervised Learning and Pretrain-Finetuning</a></h3>
-    <p class="authors">共同一作。</p>
+    <p class="authors"><strong>Song-Lin Lv</strong>, Rui Zhu, Tong Wei, Yu-Feng Li, Lan-Zhe Guo. 共同一作。</p>
     <div class="paper-interests"><span class="interest-tag--ssl">半监督学习</span><span class="interest-tag--vlm">预训练-微调</span></div>
     <p>比较半监督学习与预训练-微调范式在标注数据稀缺场景下的表现，总结两类方法的优势与局限，并为后续融合算法提供参考。</p>
     <p class="pub-links"><a href="https://arxiv.org/abs/2505.13317">arXiv</a> / <a href="https://arxiv.org/pdf/2505.13317">PDF</a></p>
@@ -153,7 +154,7 @@ redirect_from:
       <span class="venue-badge">在投</span>
     </div>
     <h3><a href="https://arxiv.org/abs/2501.19060">Shift-Aware Calibration for Fine-Tuned CLIP: Leveraging Image-Text Alignment</a></h3>
-    <p class="authors"><strong>Song-Lin Lv</strong>, coauthors.</p>
+    <p class="authors"><strong>Song-Lin Lv</strong>, Yu-Yang Chen, Zhi Zhou, Lan-Zhe Guo.</p>
     <div class="paper-interests"><span class="interest-tag--vlm">视觉语言模型</span><span class="interest-tag--calibration">置信度校准</span></div>
     <p>利用原始 CLIP 良好的校准特性改善微调后模型的置信度估计，使 VLM 在分布偏移下更加可靠、可部署。</p>
     <p class="pub-links"><a href="https://arxiv.org/abs/2501.19060">arXiv</a> / <a href="https://arxiv.org/pdf/2501.19060">PDF</a></p>
@@ -164,7 +165,7 @@ redirect_from:
       <span class="venue-badge">在投</span>
     </div>
     <h3>DECOOP: Robust Prompt Tuning with Out-of-Distribution Detection</h3>
-    <p class="authors">第二作者。</p>
+    <p class="authors">Zhi Zhou, <strong>Song-Lin Lv</strong>, Ming Yang, Jiang-Xin Shi, Lan-Zhe Guo, Yu-Feng Li.</p>
     <div class="paper-interests"><span class="interest-tag--vlm">提示学习</span><span class="interest-tag--ood">OOD 检测</span></div>
     <p>面向开放环境中的 CLIP 提示微调问题，通过多个子专家与通用专家协同工作，并在不确定时回退至通用专家，从而提升模型的开放环境鲁棒性。</p>
   </article>
