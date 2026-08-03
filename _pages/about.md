@@ -86,28 +86,29 @@ redirect_from:
     <p class="authors">共同一作。</p>
     <div class="paper-interests"><span class="interest-tag--vlm">视觉语言模型</span><span class="interest-tag--ssl">半监督学习</span></div>
     <p>结合多种 VLM 的原始泛化能力进行多视图无标注数据自训练，在开放环境设置与 VLM 评估设置中提升半监督学习表现。</p>
-    <p class="pub-links"><a href="https://arxiv.org/abs/2510.20477">arXiv</a></p>
+    <p class="pub-links"><a href="https://arxiv.org/abs/2510.20477">arXiv</a> / <a href="https://arxiv.org/pdf/2510.20477">PDF</a></p>
   </article>
 
   <article class="publication-item">
     <div class="publication-meta">
-      <span class="venue-badge">已接收</span>
+      <span class="venue-badge">ICML 2026</span>
     </div>
-    <h3>Can Agents Generalize to the Open World? Unveiling the Fragility of Static Training in Tool Use</h3>
-    <p class="authors">共同一作，参会作者。</p>
+    <h3><a href="https://arxiv.org/abs/2607.01084">Can Agents Generalize to the Open World? Unveiling the Fragility of Static Training in Tool Use</a></h3>
+    <p class="authors"><strong>Song-Lin Lv</strong>, Weiming Wu, Rui Zhu, Zi-Jian Cheng, Lan-Zhe Guo. 第一作者（作者顺序抽签决定）。</p>
     <div class="paper-interests"><span class="interest-tag--agent">LLM Agents</span><span class="interest-tag--rl">LLM RL</span></div>
     <p>研究后训练工具调用 Agent 在开放世界变化下的泛化能力，包括分布外任务、工具名称更新、领域迁移与工具突发错误等场景。工作系统比较 SFT、RL 与 SFT+RL 等训练流程，并提出 Perturbation-Augmented Fine-Tuning（PAFT）以增强模型鲁棒性。</p>
+    <p class="pub-links"><a href="https://arxiv.org/abs/2607.01084">arXiv</a> / <a href="https://icml.cc/virtual/2026/poster/65179">PDF</a></p>
   </article>
 </div>
 </section>
 
 <section class="publication-section">
-<h2>预印本 / 进行中</h2>
+<h2>在投 / 预印本</h2>
 
 <div class="publication-list">
   <article class="publication-item">
     <div class="publication-meta">
-      <span class="venue-badge">arXiv 2026</span>
+      <span class="venue-badge">在投</span>
     </div>
     <h3><a href="https://arxiv.org/abs/2607.25659">CoRT: Counterfactual Replay for Token-Level Rubric-Guided Policy Optimization</a></h3>
     <p class="authors">Bo-Wen Zhang, Junwei He, Wen Wang, <strong>Song-Lin Lv</strong>, Wentao Ma, Rongyi Lin, Shuhan Zhong, Lan-Zhe Guo.</p>
@@ -118,7 +119,7 @@ redirect_from:
 
   <article class="publication-item">
     <div class="publication-meta">
-      <span class="venue-badge">进行中</span>
+      <span class="venue-badge">在投</span>
     </div>
     <h3>Perception-Inference Decoupling: A Dual-Stage Framework to Boost LVLM Reasoning</h3>
     <p class="authors"><strong>Song-Lin Lv</strong>, coauthors.</p>
@@ -144,18 +145,18 @@ redirect_from:
     <p class="authors">共同一作。</p>
     <div class="paper-interests"><span class="interest-tag--ssl">半监督学习</span><span class="interest-tag--vlm">预训练-微调</span></div>
     <p>比较半监督学习与预训练-微调范式在标注数据稀缺场景下的表现，总结两类方法的优势与局限，并为后续融合算法提供参考。</p>
-    <p class="pub-links"><a href="https://arxiv.org/abs/2505.13317">arXiv</a></p>
+    <p class="pub-links"><a href="https://arxiv.org/abs/2505.13317">arXiv</a> / <a href="https://arxiv.org/pdf/2505.13317">PDF</a></p>
   </article>
 
   <article class="publication-item">
     <div class="publication-meta">
-      <span class="venue-badge">进行中</span>
+      <span class="venue-badge">在投</span>
     </div>
     <h3><a href="https://arxiv.org/abs/2501.19060">Shift-Aware Calibration for Fine-Tuned CLIP: Leveraging Image-Text Alignment</a></h3>
     <p class="authors"><strong>Song-Lin Lv</strong>, coauthors.</p>
     <div class="paper-interests"><span class="interest-tag--vlm">视觉语言模型</span><span class="interest-tag--calibration">置信度校准</span></div>
     <p>利用原始 CLIP 良好的校准特性改善微调后模型的置信度估计，使 VLM 在分布偏移下更加可靠、可部署。</p>
-    <p class="pub-links"><a href="https://arxiv.org/abs/2501.19060">arXiv</a></p>
+    <p class="pub-links"><a href="https://arxiv.org/abs/2501.19060">arXiv</a> / <a href="https://arxiv.org/pdf/2501.19060">PDF</a></p>
   </article>
 
   <article class="publication-item">
