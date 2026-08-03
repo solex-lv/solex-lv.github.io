@@ -177,15 +177,11 @@ redirect_from:
 <div class="timeline">
   <div class="timeline-item">
     <div class="timeline-date">2026.04 - 至今</div>
-    <div class="timeline-body"><strong>大模型算法实习生</strong>，字节跳动抖音 AI 搜索，上海。主要从事 Rubric RL、大规模 RL/OPD 后训练、回答风格奖励函数设计、DCPO 先验奖励优化与动态采样器设计等工作。</div>
+    <div class="timeline-body"><strong>大模型算法实习生</strong>，字节跳动抖音 AI 搜索，上海。</div>
   </div>
   <div class="timeline-item">
     <div class="timeline-date">2025.07 - 2025.10</div>
-    <div class="timeline-body"><strong>AI 算法实习生</strong>，华为终端 BG 小艺云服务部，上海。围绕 Qwen-32B-VL 工具调用任务搭建强化学习后训练流程，提升手机人工智能助手“小艺”的回答准确性。</div>
-  </div>
-  <div class="timeline-item">
-    <div class="timeline-date">项目实习</div>
-    <div class="timeline-body"><strong>导师国家项目实习</strong>，SAC 算法落地。参与北京驻场项目，将分类模型输出置信度校准算法部署于对输出确定性要求较高的真实场景。</div>
+    <div class="timeline-body"><strong>AI 算法实习生</strong>，华为终端 BG 小艺云服务部，上海。</div>
   </div>
 </div>
 
