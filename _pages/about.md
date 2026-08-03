@@ -30,6 +30,18 @@ redirect_from:
 
 <ul class="news-list">
   <li class="news-item">
+    <span class="news-date">2026.07</span>
+    <span class="news-body"><em><a href="https://arxiv.org/abs/2607.25659">CoRT</a></em> 发布在 arXiv，研究 Rubric-guided GRPO 中的 token 级信用分配问题。</span>
+  </li>
+  <li class="news-item">
+    <span class="news-date">2026</span>
+    <span class="news-body">开放世界工具调用 Agent 泛化能力相关工作被 <strong>ICML 2026</strong> 接收。</span>
+  </li>
+  <li class="news-item">
+    <span class="news-date">2026</span>
+    <span class="news-body"><em>Bi-CoG</em> 被 <strong>IJCAI 2026</strong> 接收为 <strong>Oral</strong> 论文。</span>
+  </li>
+  <li class="news-item">
     <span class="news-date">2026.04</span>
     <span class="news-body">加入字节跳动抖音 AI 搜索，担任大模型算法实习生，参与 AI 搜索问答卡模型的 Rubric RL 与后训练优化。</span>
   </li>
@@ -95,12 +107,13 @@ redirect_from:
 <div class="publication-list">
   <article class="publication-item">
     <div class="publication-meta">
-      <span class="venue-badge">进行中</span>
+      <span class="venue-badge">arXiv 2026</span>
     </div>
-    <h3>Counterfactual Replay for Token-Level Rubric-Guided Policy Optimization</h3>
-    <p class="authors"><strong>Song-Lin Lv</strong>, coauthors.</p>
+    <h3><a href="https://arxiv.org/abs/2607.25659">CoRT: Counterfactual Replay for Token-Level Rubric-Guided Policy Optimization</a></h3>
+    <p class="authors">Bo-Wen Zhang, Junwei He, Wen Wang, <strong>Song-Lin Lv</strong>, Wentao Ma, Rongyi Lin, Shuhan Zhong, Lan-Zhe Guo.</p>
     <div class="paper-interests"><span class="interest-tag--rl">LLM RL</span><span class="interest-tag--distill">蒸馏</span></div>
-    <p>探索 Rubric RL 中的 token 级信用分配问题。该方法通过反事实回放比较教师模型与学生模型在 token 级别的似然差异，并据此重分配 GRPO 优势值，无需额外打分模型且不改变原始序列奖励。</p>
+    <p>探索 Rubric RL 中的 token 级信用分配问题。CoRT 通过反事实回放比较有无 rubric 条件下同一回答的 token 级似然差异，并据此重分配 GRPO 优势值，无需额外 token 打分模型且不改变原始序列奖励。</p>
+    <p class="pub-links"><a href="https://arxiv.org/abs/2607.25659">arXiv</a> / <a href="https://arxiv.org/pdf/2607.25659">PDF</a></p>
   </article>
 
   <article class="publication-item">
@@ -153,16 +166,6 @@ redirect_from:
     <p class="authors">第二作者。</p>
     <div class="paper-interests"><span class="interest-tag--vlm">提示学习</span><span class="interest-tag--ood">OOD 检测</span></div>
     <p>面向开放环境中的 CLIP 提示微调问题，通过多个子专家与通用专家协同工作，并在不确定时回退至通用专家，从而提升模型的开放环境鲁棒性。</p>
-  </article>
-
-  <article class="publication-item">
-    <div class="publication-meta">
-      <span class="venue-badge">Benchmark</span>
-    </div>
-    <h3>OpenPL: Realistic Evaluation of Prompt Learning for VLM in Open Environments</h3>
-    <p class="authors">第二作者。</p>
-    <div class="paper-interests"><span class="interest-tag--vlm">视觉语言模型</span><span class="interest-tag--benchmark">Benchmark</span></div>
-    <p>系统评估预训练视觉语言模型在类别变化、分布变化等真实开放环境下的鲁棒性，并总结现有提示微调方法的局限与未来方向。</p>
   </article>
 </div>
 </section>
