@@ -34,11 +34,11 @@ redirect_from:
     <span class="news-body"><em><a href="https://arxiv.org/abs/2607.25659">CoRT</a></em> 发布在 arXiv，研究 Rubric-guided GRPO 中的 token 级信用分配问题。</span>
   </li>
   <li class="news-item">
-    <span class="news-date">2026</span>
+    <span class="news-date">2026.05</span>
     <span class="news-body">开放世界工具调用 Agent 泛化能力相关工作被 <strong>ICML 2026</strong> 接收。</span>
   </li>
   <li class="news-item">
-    <span class="news-date">2026</span>
+    <span class="news-date">2026.05</span>
     <span class="news-body"><em>Bi-CoG</em> 被 <strong>IJCAI 2026</strong> 接收为 <strong>Oral</strong> 论文。</span>
   </li>
   <li class="news-item">
@@ -80,7 +80,7 @@ redirect_from:
   <article class="publication-item">
     <div class="publication-meta">
       <span class="venue-badge">IJCAI 2026</span>
-      <span class="paper-note award">Oral</span>
+      <span class="paper-note award">Oral · 2026.05</span>
     </div>
     <h3><a href="https://arxiv.org/abs/2510.20477">Bi-CoG: Bi-Consistency-Guided Self-Training for Vision-Language Models</a></h3>
     <p class="authors">Rui Zhu, <strong>Song-Lin Lv</strong>, Zi-Kang Wang, Lan-Zhe Guo. 共同一作。</p>
@@ -92,6 +92,7 @@ redirect_from:
   <article class="publication-item">
     <div class="publication-meta">
       <span class="venue-badge">ICML 2026</span>
+      <span class="paper-note">2026.05</span>
     </div>
     <h3><a href="https://arxiv.org/abs/2607.01084">Can Agents Generalize to the Open World? Unveiling the Fragility of Static Training in Tool Use</a></h3>
     <p class="authors"><strong>Song-Lin Lv</strong>, Weiming Wu, Rui Zhu, Zi-Jian Cheng, Lan-Zhe Guo. 第一作者（作者顺序抽签决定）。</p>
