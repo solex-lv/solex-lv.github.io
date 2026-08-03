@@ -1,28 +1,28 @@
-# Song-Lin Lv Homepage
+# 吕松霖个人主页
 
-This repository hosts the personal academic homepage for Song-Lin Lv (吕松霖), built with Jekyll and adapted from AcadHomepage.
+本仓库用于托管吕松霖（Song-Lin Lv）的个人学术主页，基于 Jekyll 与 AcadHomepage 修改。
 
 
-## GitHub Pages URL
+## 访问链接
 
-After renaming the repository to `solex-lv.github.io`, the homepage will be available at:
+仓库名为 `solex-lv.github.io` 后，主页访问地址为：
 
 ```text
 https://solex-lv.github.io/
 ```
 
-## Local preview
+## 本地预览
 
 ```bash
 bash run_server.sh
 ```
 
-Then open `http://127.0.0.1:4000`.
+然后打开 `http://127.0.0.1:4000`。
 
-## Main files
+## 主要文件
 
-- `_config.yml`: site metadata and sidebar profile information.
-- `_data/navigation.yml`: top navigation items.
-- `_pages/about.md`: homepage content.
-- `assets/css/main.scss`: theme and page styling.
-- `images/profile-placeholder.svg`: temporary avatar placeholder; replace it with a personal photo when ready and update `author.avatar` in `_config.yml` if needed.
+- `_config.yml`: 站点元信息与侧边栏个人信息.
+- `_data/navigation.yml`: 顶部导航.
+- `_pages/about.md`: 主页内容.
+- `assets/css/main.scss`: 主题与页面样式.
+- `images/profile-placeholder.svg`: 临时头像占位图；后续可替换为个人照片，必要时同步更新 `_config.yml` 中的 `author.avatar`.

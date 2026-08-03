@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: ""
-excerpt: "Song-Lin Lv is an M.S. student at Nanjing University, working on LLM/MLLM post-training, reinforcement learning, and vision-language models."
+excerpt: "吕松霖，南京大学计算机科学与技术硕士研究生，研究方向包括大语言模型/多模态大模型后训练、强化学习与视觉语言模型。"
 author_profile: true
 redirect_from:
   - /about/
@@ -10,47 +10,47 @@ redirect_from:
 
 <span class="anchor" id="about-me"></span>
 
-I am **Song-Lin Lv** (吕松霖), a master's student in Computer Science and Technology at the School of Intelligence Science and Technology, **Nanjing University**. I am advised by Prof. [Lan-Zhe Guo](https://www.lamda.nju.edu.cn/guolz/) and work with [LAMDA](https://www.lamda.nju.edu.cn/), led by Prof. [Zhi-Hua Zhou](https://cs.nju.edu.cn/zhouzh/). Before that, I received my B.Eng. in Artificial Intelligence from **Shandong University**.
+我是 **吕松霖**（Song-Lin Lv），南京大学智能科学与技术学院计算机科学与技术专业硕士研究生，导师为 [郭兰哲](https://www.lamda.nju.edu.cn/guolz/) 助理教授，目前在 [LAMDA](https://www.lamda.nju.edu.cn/) 课题组学习与研究。此前，我于山东大学计算机科学与技术学院获得人工智能专业工学学士学位。
 
-<div class="research-interests" aria-label="Research interests">
-  <div class="interest-label">Research Interests</div>
+<div class="research-interests" aria-label="研究方向">
+  <div class="interest-label">研究方向</div>
   <div class="interest-list">
-    <span class="interest-tag interest-tag--llm">LLM/MLLM Post-training</span>
-    <span class="interest-tag interest-tag--rl">Reinforcement Learning</span>
-    <span class="interest-tag interest-tag--vlm">Vision-Language Models</span>
+    <span class="interest-tag interest-tag--llm">大语言模型/多模态大模型后训练</span>
+    <span class="interest-tag interest-tag--rl">强化学习</span>
+    <span class="interest-tag interest-tag--vlm">视觉语言模型</span>
     <span class="interest-tag interest-tag--agent">Agentic AI</span>
   </div>
 </div>
 
-My current research centers on post-training large language models and multimodal large language models, including supervised fine-tuning, reinforcement learning, rubric-guided reward design, model distillation, and test-time performance improvement. I am also interested in reliable vision-language learning, especially parameter-efficient tuning, calibration, and semi-supervised self-training.
+我的研究以大语言模型（LLM）与多模态大语言模型（MLLM）的后训练为主，关注监督微调、强化学习、Rubric-guided reward 设计、模型蒸馏与测试时间性能提升等问题。同时，我也长期关注视觉语言模型的可靠学习，包括参数高效微调、置信度校准与半监督自训练等方向。
 
 <span class="anchor" id="news"></span>
 
-# News
+# 近期动态
 
 <ul class="news-list">
   <li class="news-item">
     <span class="news-date">2026.04</span>
-    <span class="news-body">I joined Douyin AI Search at ByteDance as an LLM algorithm intern, working on Rubric RL and post-training for AI search QA.</span>
+    <span class="news-body">加入字节跳动抖音 AI 搜索，担任大模型算法实习生，参与 AI 搜索问答卡模型的 Rubric RL 与后训练优化。</span>
   </li>
   <li class="news-item">
     <span class="news-date">2025.08</span>
-    <span class="news-body"><em>BMIP</em> was accepted by <strong>IJCAI 2025</strong> as an <strong>Oral</strong> paper.</span>
+    <span class="news-body"><em>BMIP</em> 被 <strong>IJCAI 2025</strong> 接收为 <strong>Oral</strong> 论文。</span>
   </li>
   <li class="news-item">
     <span class="news-date">2025.07</span>
-    <span class="news-body">I joined Huawei Terminal BG as an AI algorithm intern, focusing on multimodal tool-use reinforcement learning.</span>
+    <span class="news-body">加入华为终端 BG 小艺云服务部，担任 AI 算法实习生，参与多模态工具调用强化学习训练。</span>
   </li>
 </ul>
 
 <span class="anchor" id="publications"></span>
 
-# Publications
+# 论文与研究
 
-<sup>*</sup> denotes equal contribution. Selected manuscripts are listed below.
+<sup>*</sup> 表示共同一作。以下列出部分代表性工作。为避免影响双盲评审，尚未公开接收的在投/准备中工作仅保留通用状态，不标注目标会议或期刊。
 
 <section class="publication-section">
-<h2>Conference Papers</h2>
+<h2>已发表 / 已接收</h2>
 
 <div class="publication-list">
   <article class="publication-item">
@@ -60,59 +60,9 @@ My current research centers on post-training large language models and multimoda
     </div>
     <h3><a href="https://www.ijcai.org/proceedings/2025/655">BMIP: Bi-directional Modality Interaction Prompt Learning for VLM</a></h3>
     <p class="authors"><strong>Song-Lin Lv</strong>, coauthors.</p>
-    <div class="paper-interests"><span class="interest-tag--vlm">Vision-Language Models</span><span class="interest-tag--tuning">Prompt Learning</span></div>
-    <p>We propose a parameter-efficient prompt-learning framework for CLIP-style vision-language models. BMIP learns visual and textual prompts independently while enabling bidirectional modality interaction through attention-weighted prompt exchange.</p>
+    <div class="paper-interests"><span class="interest-tag--vlm">视觉语言模型</span><span class="interest-tag--tuning">提示学习</span></div>
+    <p>提出一种面向 CLIP 类视觉语言模型的参数高效提示学习框架，在视觉模态与语言模态分别学习提示参数，并通过双向模态交互机制实现提示间的信息传递，从而提升下游任务特征表示能力。</p>
     <p class="pub-links"><a href="https://www.ijcai.org/proceedings/2025/655">Paper</a></p>
-  </article>
-</div>
-</section>
-
-<section class="publication-section">
-<h2>Preprints &amp; Under Review</h2>
-
-<div class="publication-list">
-  <article class="publication-item">
-    <div class="publication-meta">
-      <span class="venue-badge">ICML 2026</span>
-      <span class="paper-note">To Appear</span>
-    </div>
-    <h3>Can Agents Generalize to the Open World? Unveiling the Fragility of Static Training in Tool Use</h3>
-    <p class="authors">Equal contribution, presenting author.</p>
-    <div class="paper-interests"><span class="interest-tag--agent">LLM Agents</span><span class="interest-tag--rl">LLM RL</span></div>
-    <p>We study whether post-trained tool-use agents can adapt to open-world changes such as out-of-distribution tasks, updated tool names, domain shifts, and unexpected tool errors. The work compares SFT, RL, and SFT+RL pipelines and proposes Perturbation-Augmented Fine-Tuning (PAFT) to improve robustness.</p>
-  </article>
-
-  <article class="publication-item">
-    <div class="publication-meta">
-      <span class="venue-badge">AAAI 2027</span>
-      <span class="paper-note">In Preparation</span>
-    </div>
-    <h3>Counterfactual Replay for Token-Level Rubric-Guided Policy Optimization</h3>
-    <p class="authors"><strong>Song-Lin Lv</strong>, coauthors.</p>
-    <div class="paper-interests"><span class="interest-tag--rl">LLM RL</span><span class="interest-tag--distill">Distillation</span></div>
-    <p>We explore token-level credit assignment for Rubric RL. The method uses counterfactual replay to compare teacher and student likelihoods at the token level, then reweights GRPO advantages without requiring an extra reward model or changing sequence-level rewards.</p>
-  </article>
-
-  <article class="publication-item">
-    <div class="publication-meta">
-      <span class="venue-badge">AAAI 2027</span>
-      <span class="paper-note">In Preparation</span>
-    </div>
-    <h3>Perception-Inference Decoupling: A Dual-Stage Framework to Boost LVLM Reasoning</h3>
-    <p class="authors"><strong>Song-Lin Lv</strong>, coauthors.</p>
-    <div class="paper-interests"><span class="interest-tag--vlm">MLLM</span><span class="interest-tag--reasoning">Reasoning</span></div>
-    <p>We investigate hallucination in multimodal large language models by explicitly separating visual perception from reasoning, and optimize the two stages to improve multimodal understanding and inference.</p>
-  </article>
-
-  <article class="publication-item">
-    <div class="publication-meta">
-      <span class="venue-badge">EMNLP 2026</span>
-      <span class="paper-note">Under Review</span>
-    </div>
-    <h3>HyPRM: A Hybrid Process Reward Model for Pre-Execution Action Selection in Multimodal Agents</h3>
-    <p class="authors">Equal contribution, mentor.</p>
-    <div class="paper-interests"><span class="interest-tag--agent">Multimodal Agents</span><span class="interest-tag--rl">Reward Models</span></div>
-    <p>We train a process reward model from optimal and redundant tool-use chains to reduce unnecessary tool calls in multimodal agents, supporting both RL reward design and test-time action selection.</p>
   </article>
 
   <article class="publication-item">
@@ -121,45 +71,88 @@ My current research centers on post-training large language models and multimoda
       <span class="paper-note award">Oral</span>
     </div>
     <h3><a href="https://arxiv.org/abs/2510.20477">Bi-CoG: Bi-Consistency-Guided Self-Training for Vision-Language Models</a></h3>
-    <p class="authors">Equal contribution.</p>
-    <div class="paper-interests"><span class="interest-tag--vlm">Vision-Language Models</span><span class="interest-tag--ssl">Semi-Supervised Learning</span></div>
-    <p>Bi-CoG combines multiple VLMs as base classifiers and uses their original generalization ability for multi-view self-training on unlabeled data, targeting open-environment and VLM evaluation settings.</p>
+    <p class="authors">共同一作。</p>
+    <div class="paper-interests"><span class="interest-tag--vlm">视觉语言模型</span><span class="interest-tag--ssl">半监督学习</span></div>
+    <p>结合多种 VLM 的原始泛化能力进行多视图无标注数据自训练，在开放环境设置与 VLM 评估设置中提升半监督学习表现。</p>
     <p class="pub-links"><a href="https://arxiv.org/abs/2510.20477">arXiv</a></p>
   </article>
 
   <article class="publication-item">
     <div class="publication-meta">
-      <span class="venue-badge">WAICA 2026</span>
-      <span class="paper-note">Under Review</span>
+      <span class="venue-badge">已接收</span>
+    </div>
+    <h3>Can Agents Generalize to the Open World? Unveiling the Fragility of Static Training in Tool Use</h3>
+    <p class="authors">共同一作，参会作者。</p>
+    <div class="paper-interests"><span class="interest-tag--agent">LLM Agents</span><span class="interest-tag--rl">LLM RL</span></div>
+    <p>研究后训练工具调用 Agent 在开放世界变化下的泛化能力，包括分布外任务、工具名称更新、领域迁移与工具突发错误等场景。工作系统比较 SFT、RL 与 SFT+RL 等训练流程，并提出 Perturbation-Augmented Fine-Tuning（PAFT）以增强模型鲁棒性。</p>
+  </article>
+</div>
+</section>
+
+<section class="publication-section">
+<h2>预印本 / 进行中</h2>
+
+<div class="publication-list">
+  <article class="publication-item">
+    <div class="publication-meta">
+      <span class="venue-badge">进行中</span>
+    </div>
+    <h3>Counterfactual Replay for Token-Level Rubric-Guided Policy Optimization</h3>
+    <p class="authors"><strong>Song-Lin Lv</strong>, coauthors.</p>
+    <div class="paper-interests"><span class="interest-tag--rl">LLM RL</span><span class="interest-tag--distill">蒸馏</span></div>
+    <p>探索 Rubric RL 中的 token 级信用分配问题。该方法通过反事实回放比较教师模型与学生模型在 token 级别的似然差异，并据此重分配 GRPO 优势值，无需额外打分模型且不改变原始序列奖励。</p>
+  </article>
+
+  <article class="publication-item">
+    <div class="publication-meta">
+      <span class="venue-badge">进行中</span>
+    </div>
+    <h3>Perception-Inference Decoupling: A Dual-Stage Framework to Boost LVLM Reasoning</h3>
+    <p class="authors"><strong>Song-Lin Lv</strong>, coauthors.</p>
+    <div class="paper-interests"><span class="interest-tag--vlm">MLLM</span><span class="interest-tag--reasoning">推理</span></div>
+    <p>针对多模态大语言模型中的图像感知幻觉与推理幻觉，研究显式分离感知与推理过程的两阶段优化策略，以提升模型的多模态理解与推理能力。</p>
+  </article>
+
+  <article class="publication-item">
+    <div class="publication-meta">
+      <span class="venue-badge">在投</span>
+    </div>
+    <h3>HyPRM: A Hybrid Process Reward Model for Pre-Execution Action Selection in Multimodal Agents</h3>
+    <p class="authors">共同一作，指导者。</p>
+    <div class="paper-interests"><span class="interest-tag--agent">多模态 Agent</span><span class="interest-tag--rl">过程奖励模型</span></div>
+    <p>通过构建理想工具调用链条与冗余工具链条训练过程奖励模型，用于强化学习奖励设计与测试时工具选择，以减少结果导向奖励带来的工具调用冗余问题。</p>
+  </article>
+
+  <article class="publication-item">
+    <div class="publication-meta">
+      <span class="venue-badge">在投</span>
     </div>
     <h3><a href="https://arxiv.org/abs/2505.13317">Unlabeled Data or Pre-trained Model: Rethinking Semi-Supervised Learning and Pretrain-Finetuning</a></h3>
-    <p class="authors">Equal contribution.</p>
-    <div class="paper-interests"><span class="interest-tag--ssl">Semi-Supervised Learning</span><span class="interest-tag--vlm">Pretrain-Finetuning</span></div>
-    <p>We compare semi-supervised learning and pretrain-finetuning under data scarcity, summarizing their strengths and motivating future hybrid algorithms.</p>
+    <p class="authors">共同一作。</p>
+    <div class="paper-interests"><span class="interest-tag--ssl">半监督学习</span><span class="interest-tag--vlm">预训练-微调</span></div>
+    <p>比较半监督学习与预训练-微调范式在标注数据稀缺场景下的表现，总结两类方法的优势与局限，并为后续融合算法提供参考。</p>
     <p class="pub-links"><a href="https://arxiv.org/abs/2505.13317">arXiv</a></p>
   </article>
 
   <article class="publication-item">
     <div class="publication-meta">
-      <span class="venue-badge">AAAI 2027</span>
-      <span class="paper-note">In Preparation</span>
+      <span class="venue-badge">进行中</span>
     </div>
     <h3><a href="https://arxiv.org/abs/2501.19060">Shift-Aware Calibration for Fine-Tuned CLIP: Leveraging Image-Text Alignment</a></h3>
     <p class="authors"><strong>Song-Lin Lv</strong>, coauthors.</p>
-    <div class="paper-interests"><span class="interest-tag--vlm">Vision-Language Models</span><span class="interest-tag--calibration">Calibration</span></div>
-    <p>We leverage the calibration behavior of original CLIP to improve confidence estimation after fine-tuning, aiming to make deployed VLMs more reliable under distribution shift.</p>
+    <div class="paper-interests"><span class="interest-tag--vlm">视觉语言模型</span><span class="interest-tag--calibration">置信度校准</span></div>
+    <p>利用原始 CLIP 良好的校准特性改善微调后模型的置信度估计，使 VLM 在分布偏移下更加可靠、可部署。</p>
     <p class="pub-links"><a href="https://arxiv.org/abs/2501.19060">arXiv</a></p>
   </article>
 
   <article class="publication-item">
     <div class="publication-meta">
-      <span class="venue-badge">TPAMI</span>
-      <span class="paper-note">Under Review</span>
+      <span class="venue-badge">在投</span>
     </div>
     <h3>DECOOP: Robust Prompt Tuning with Out-of-Distribution Detection</h3>
-    <p class="authors">Second author.</p>
-    <div class="paper-interests"><span class="interest-tag--vlm">Prompt Learning</span><span class="interest-tag--ood">OOD Detection</span></div>
-    <p>DECOOP improves CLIP prompt tuning in open environments by combining multiple sub-experts with a general expert and deciding when to fall back to the general expert under uncertainty.</p>
+    <p class="authors">第二作者。</p>
+    <div class="paper-interests"><span class="interest-tag--vlm">提示学习</span><span class="interest-tag--ood">OOD 检测</span></div>
+    <p>面向开放环境中的 CLIP 提示微调问题，通过多个子专家与通用专家协同工作，并在不确定时回退至通用专家，从而提升模型的开放环境鲁棒性。</p>
   </article>
 
   <article class="publication-item">
@@ -167,68 +160,68 @@ My current research centers on post-training large language models and multimoda
       <span class="venue-badge">Benchmark</span>
     </div>
     <h3>OpenPL: Realistic Evaluation of Prompt Learning for VLM in Open Environments</h3>
-    <p class="authors">Second author.</p>
-    <div class="paper-interests"><span class="interest-tag--vlm">Vision-Language Models</span><span class="interest-tag--benchmark">Benchmark</span></div>
-    <p>OpenPL systematically evaluates pretrained vision-language models under realistic open-environment shifts, including category changes and distribution shifts, and analyzes limitations of existing prompt-tuning methods.</p>
+    <p class="authors">第二作者。</p>
+    <div class="paper-interests"><span class="interest-tag--vlm">视觉语言模型</span><span class="interest-tag--benchmark">Benchmark</span></div>
+    <p>系统评估预训练视觉语言模型在类别变化、分布变化等真实开放环境下的鲁棒性，并总结现有提示微调方法的局限与未来方向。</p>
   </article>
 </div>
 </section>
 
 <span class="anchor" id="experience"></span>
 
-# Experience
+# 经历
 
 <div class="timeline">
   <div class="timeline-item">
-    <div class="timeline-date">2026.04 - Present</div>
-    <div class="timeline-body"><strong>LLM Algorithm Intern</strong>, Douyin AI Search, ByteDance, Shanghai. Working on Rubric RL, large-scale RL/OPD post-training, reward design for answer style, DCPO prior reward optimization, and dynamic sampling for efficient post-training.</div>
+    <div class="timeline-date">2026.04 - 至今</div>
+    <div class="timeline-body"><strong>大模型算法实习生</strong>，字节跳动抖音 AI 搜索，上海。主要从事 Rubric RL、大规模 RL/OPD 后训练、回答风格奖励函数设计、DCPO 先验奖励优化与动态采样器设计等工作。</div>
   </div>
   <div class="timeline-item">
     <div class="timeline-date">2025.07 - 2025.10</div>
-    <div class="timeline-body"><strong>AI Algorithm Intern</strong>, Huawei Terminal BG, Xiaoyi Cloud Service, Shanghai. Built a reinforcement-learning post-training pipeline for Qwen-32B-VL tool use and improved answer accuracy for the Xiaoyi assistant.</div>
+    <div class="timeline-body"><strong>AI 算法实习生</strong>，华为终端 BG 小艺云服务部，上海。围绕 Qwen-32B-VL 工具调用任务搭建强化学习后训练流程，提升手机人工智能助手“小艺”的回答准确性。</div>
   </div>
   <div class="timeline-item">
-    <div class="timeline-date">Project Internship</div>
-    <div class="timeline-body"><strong>National Project Internship</strong>, SAC algorithm deployment. Participated in an on-site project in Beijing and deployed calibration algorithms for confidence-sensitive classification scenarios.</div>
+    <div class="timeline-date">项目实习</div>
+    <div class="timeline-body"><strong>导师国家项目实习</strong>，SAC 算法落地。参与北京驻场项目，将分类模型输出置信度校准算法部署于对输出确定性要求较高的真实场景。</div>
   </div>
 </div>
 
 <span class="anchor" id="education"></span>
 
-# Education
+# 教育经历
 
 <div class="timeline">
   <div class="timeline-item">
     <div class="timeline-date">2024.09 - 2027.06</div>
-    <div class="timeline-body"><strong>Nanjing University</strong>, M.S. in Computer Science and Technology, School of Intelligence Science and Technology. Advisor: Prof. <a href="https://www.lamda.nju.edu.cn/guolz/">Lan-Zhe Guo</a>; LAMDA. Awarded Outstanding Graduate Student of Nanjing University.</div>
+    <div class="timeline-body"><strong>南京大学</strong>，计算机科学与技术硕士，智能科学与技术学院。导师：<a href="https://www.lamda.nju.edu.cn/guolz/">郭兰哲</a> 助理教授；课题组：LAMDA。曾获南京大学优秀研究生。</div>
   </div>
   <div class="timeline-item">
     <div class="timeline-date">2020.09 - 2024.06</div>
-    <div class="timeline-body"><strong>Shandong University</strong>, B.Eng. in Artificial Intelligence, School of Computer Science and Technology. Ranked 2/52 overall and awarded Outstanding Graduate of Shandong University.</div>
+    <div class="timeline-body"><strong>山东大学</strong>，人工智能本科，计算机科学与技术学院。综合排名 2/52，获山东大学优秀毕业生。</div>
   </div>
 </div>
 
 <span class="anchor" id="honors"></span>
 
-# Honors and Awards
+# 荣誉奖项
 
 <div class="honor-grid">
-  <div class="honor-card"><span>2025</span> National Scholarship for Graduate Students</div>
-  <div class="honor-card"><span>2025</span> Suzhou Niuwei Talent Award</div>
-  <div class="honor-card"><span>2024</span> Shandong Provincial Government Scholarship</div>
-  <div class="honor-card"><span>2024</span> Huawei Scholarship</div>
-  <div class="honor-card"><span>2023</span> MCM/ICM Finalist, top 2%</div>
-  <div class="honor-card"><span>2023</span> National Second Prize, Teddy Cup Data Mining Competition</div>
-  <div class="honor-card"><span>2023</span> National Second Prize, Energy Conservation and Emission Reduction Competition</div>
+  <div class="honor-card"><span>2025</span> 研究生国家奖学金</div>
+  <div class="honor-card"><span>2025</span> 苏州市牛尾英才奖</div>
+  <div class="honor-card"><span>2024</span> 山东省政府奖学金</div>
+  <div class="honor-card"><span>2024</span> 华为奖学金</div>
+  <div class="honor-card"><span>2023</span> 美国大学生数学建模竞赛特等奖提名，前 2%</div>
+  <div class="honor-card"><span>2023</span> 泰迪杯数据挖掘竞赛国家级二等奖</div>
+  <div class="honor-card"><span>2023</span> 全国大学生节能减排科技竞赛国家级二等奖</div>
 </div>
 
 <span class="anchor" id="skills"></span>
 
-# Skills &amp; Service
+# 技能与服务
 
 <ul class="compact-list">
-  <li><strong>Programming:</strong> C/C++, Python/PyTorch, Linux, LaTeX.</li>
-  <li><strong>Training frameworks:</strong> LLaMA Factory; VeRL (FSDP/Megatron); parameter-efficient tuning frameworks for VLMs.</li>
-  <li><strong>Academic service:</strong> reviewer for ICML, IJCAI, and FCS; participated in organizing an IJCAI 2026 travel-planning workshop competition.</li>
-  <li><strong>Interests:</strong> reading, table tennis, badminton, tennis, and basketball.</li>
+  <li><strong>编程：</strong>C/C++、Python/PyTorch、Linux、LaTeX。</li>
+  <li><strong>训练框架：</strong>LLaMA Factory；VeRL（FSDP/Megatron）；视觉语言编码模型参数高效微调训练框架。</li>
+  <li><strong>学术服务：</strong>担任 ICML、IJCAI、FCS 等会议/期刊审稿人；参与 IJCAI 2026 旅行规划 Workshop 竞赛组织。</li>
+  <li><strong>兴趣爱好：</strong>阅读、乒乓球、羽毛球、网球、篮球。</li>
 </ul>

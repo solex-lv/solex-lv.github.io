@@ -3,8 +3,8 @@
 # This config file is for site-wide settings. Restart `jekyll serve` after edits.
 
 # Site Settings
-title                    : "Song-Lin Lv"
-description              : "LLM/MLLM Post-training · Reinforcement Learning · Vision-Language Models"
+title                    : "吕松霖"
+description              : "大语言模型/多模态大模型后训练 · 强化学习 · 视觉语言模型"
 repository               : "solex-lv/solex-lv.github.io"
 google_scholar_stats_use_cdn : false
 
@@ -18,11 +18,11 @@ baidu_site_verification  :
 
 # Site Author
 author:
-  name             : "Song-Lin Lv (吕松霖)"
+  name             : "吕松霖 (Song-Lin Lv)"
   avatar           : "images/profile-placeholder.svg"
-  bio              : "M.S. Student, Nanjing University"
-  location         : "Suzhou, China"
-  employer         : "LAMDA, Nanjing University"
+  bio              : "南京大学硕士研究生"
+  location         : "中国苏州"
+  employer         : "南京大学 LAMDA"
   pubmed           :
   googlescholar    : ""
   email            : "lvsl@lamda.nju.edu.cn"

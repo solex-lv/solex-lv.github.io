@@ -1,19 +1,19 @@
 # main links
 main:
-  - title: "About Me"
+  - title: "关于我"
     url: "/#about-me"
 
-  - title: "News"
+  - title: "动态"
     url: "/#news"
 
-  - title: "Publications"
+  - title: "论文"
     url: "/#publications"
 
-  - title: "Experience"
+  - title: "经历"
     url: "/#experience"
 
-  - title: "Education"
+  - title: "教育"
     url: "/#education"
 
-  - title: "Honors"
+  - title: "荣誉"
     url: "/#honors"
