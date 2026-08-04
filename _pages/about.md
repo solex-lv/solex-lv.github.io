@@ -83,7 +83,7 @@ redirect_from:
       <span class="paper-note award">Oral · 2026.05</span>
     </div>
     <h3><a href="https://arxiv.org/abs/2510.20477">Bi-CoG: Bi-Consistency-Guided Self-Training for Vision-Language Models</a></h3>
-    <p class="authors">Rui Zhu, <strong>Song-Lin Lv</strong>, Zi-Kang Wang, Lan-Zhe Guo. 共同一作。</p>
+    <p class="authors">Rui Zhu<sup>*</sup>, <strong>Song-Lin Lv</strong><sup>*</sup>, Zi-Kang Wang, Lan-Zhe Guo.</p>
     <div class="paper-interests"><span class="interest-tag--vlm">视觉语言模型</span><span class="interest-tag--ssl">半监督学习</span></div>
     <p>结合多种 VLM 的原始泛化能力进行多视图无标注数据自训练，在开放环境设置与 VLM 评估设置中提升半监督学习表现。</p>
     <p class="pub-links"><a href="https://arxiv.org/abs/2510.20477">arXiv</a> / <a href="https://arxiv.org/pdf/2510.20477">PDF</a></p>
@@ -95,7 +95,7 @@ redirect_from:
       <span class="paper-note">2026.05</span>
     </div>
     <h3><a href="https://arxiv.org/abs/2607.01084">Can Agents Generalize to the Open World? Unveiling the Fragility of Static Training in Tool Use</a></h3>
-    <p class="authors"><strong>Song-Lin Lv</strong>, Weiming Wu, Rui Zhu, Zi-Jian Cheng, Lan-Zhe Guo. 第一作者（作者顺序抽签决定）。</p>
+    <p class="authors"><strong>Song-Lin Lv</strong><sup>*</sup>, Weiming Wu<sup>*</sup>, Rui Zhu<sup>*</sup>, Zi-Jian Cheng<sup>*</sup>, Lan-Zhe Guo. 作者顺序抽签决定。</p>
     <div class="paper-interests"><span class="interest-tag--agent">LLM Agents</span><span class="interest-tag--rl">LLM RL</span></div>
     <p>研究后训练工具调用 Agent 在开放世界变化下的泛化能力，包括分布外任务、工具名称更新、领域迁移与工具突发错误等场景。工作系统比较 SFT、RL 与 SFT+RL 等训练流程，并提出 Perturbation-Augmented Fine-Tuning（PAFT）以增强模型鲁棒性。</p>
     <p class="pub-links"><a href="https://arxiv.org/abs/2607.01084">arXiv</a> / <a href="https://icml.cc/virtual/2026/poster/65179">PDF</a></p>
@@ -134,7 +134,7 @@ redirect_from:
       <span class="venue-badge">在投</span>
     </div>
     <h3>ActionPRM: Learning Action-Level Process Reward Models for Pre-Execution Action Selection in Multimodal Agents</h3>
-    <p class="authors">Yongqian Wen, <strong>Song-Lin Lv</strong>, Ye Luo, Lan-Zhe Guo.</p>
+    <p class="authors">Yongqian Wen<sup>*</sup>, <strong>Song-Lin Lv</strong><sup>*</sup>, Ye Luo, Lan-Zhe Guo. Song-Lin Lv 为指导人。</p>
     <div class="paper-interests"><span class="interest-tag--agent">多模态 Agent</span><span class="interest-tag--rl">过程奖励模型</span></div>
     <p>学习动作级过程奖励模型，在工具执行前评估候选动作，用于多模态 Agent 的动作选择与工具调用优化。</p>
   </article>
